@@ -9,9 +9,11 @@
 var FisController = require("./lib/fis.js");
 
 var fisController = new FisController({
-    module: "notes",
-    folder: "D:\/svn\/notes\/notes",
-    output: "./output"
+    module: "common",
+    folder: "D:\/svn\/common\/common",
+    output: "./common"
+    /*,
+    force: true*/
 });
 
 fisController.start();
